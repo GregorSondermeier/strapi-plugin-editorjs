@@ -1,0 +1,68 @@
+.editorjs-box {
+  min-height: 200px;
+}
+
+/* decrease general font-size for all editorjs contents to align the look & feel with how it was in strapi v3 */
+.editorjs-box .ce-block {
+  font-size: 0.8rem;
+}
+
+/* decrease square dimensions for toolbar action buttons for vertical alignment */
+.editorjs-box .ce-toolbar__actions > [class^='ce-toolbar__'] {
+  height: 20px;
+  width: 20px;
+}
+
+/* style headline elements in concurrence with how they looked in strapi v3 */
+.editorjs-box .ce-header {
+  font-weight: 500;
+}
+.editorjs-box h1.ce-header {
+  font-size: 1.5rem;
+}
+.editorjs-box h2.ce-header {
+  font-size: 1.25rem;
+}
+.editorjs-box h3.ce-header {
+  font-size: 1.1rem;
+}
+.editorjs-box h4.ce-header {
+  font-size: 0.9rem;
+}
+.editorjs-box h5.ce-header {
+  font-size: 0.8rem;
+}
+.editorjs-box h6.ce-header {
+  font-size: 0.66rem;
+}
+
+/* consolidate font-size of table contents */
+.editorjs-box .tc-table {
+  font-size: 0.8rem;
+}
+
+/* reduce height of individual list items because of smaller general font-size */
+.editorjs-box .cdx-list .cdx-list__item {
+  padding: 0 0 0 3px;
+}
+
+/* reduce size of delimiter because of smaller general font-size */
+.editorjs-box .ce-delimiter::before {
+  font-size: 1.5rem;
+}
+
+/* reduce height of checklist items and vertical alignment of checkboxes */
+.editorjs-box .cdx-checklist__item-checkbox {
+  margin-top: 2px;
+  margin-bottom: 0;
+  width: 18px;
+  height: 18px;
+}
+.editorjs-box .cdx-checklist__item-checkbox::after {
+  top: 5px;
+  left: 4px;
+}
+.editorjs-box .cdx-checklist__item-text {
+  padding: 0;
+  line-height: 1.6em;
+}

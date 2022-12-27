@@ -1,0 +1,9 @@
+{
+  "builder.field.label": "Editor.js",
+  "builder.field.description": "Rich Text im JSON Format erstellen mittels Editor.js",
+
+  "placeholder.paragraph": "Text eingeben...",
+  "placeholder.header": "Überschrift eingeben...",
+  "placeholder.quote": "Zitat eingeben...",
+  "placeholder.quoteCaption": "Zitat Caption eingeben..."
+}

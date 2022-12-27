@@ -1,0 +1,9 @@
+{
+  "builder.field.label": "Editor.js",
+  "builder.field.description": "Create Rich Text as JSON using Editor.js",
+
+  "placeholder.paragraph": "Insert text...",
+  "placeholder.header": "Insert headline...",
+  "placeholder.quote": "Insert quote...",
+  "placeholder.quoteCaption": "Insert quote caption..."
+}
